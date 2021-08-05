@@ -72,6 +72,7 @@
 
 .head-content{
   overflow-x: hidden;
+  margin-top: 115px;
 }
 .header__logo{
 /* animation: bounce;
@@ -205,8 +206,8 @@
 
 /* header section */
 .header_m{
-  padding-top: 35px;
-  padding-bottom: 35px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 .icon-logo{
   fill: #F46752;
@@ -224,6 +225,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 .header__nav-list{
   margin: 6.5px 0 6.5px 35px;
@@ -1322,13 +1332,33 @@
     margin: 0 0 0 auto;
     display: block;
 }
-
-/* .startoday, .contacts, .life-insur, .bellofree, .coverage, .bellohelp {
-  overflow-x: hidden;
-} */
 .bellofree, .bellohelp{
   overflow-x: hidden;
 }
+
+/* header scroll */
+.header.transparent-white {
+  background-color: transparent;
+}
+.header.transparent-white.nav-collapsed {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+.header__wrap{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.nav-collapsed .header__wrap {
+  background-color: white;
+  padding: 15px 0;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.nav-collapsed {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
 
 @media (max-width: 87.5em) {  /* 1400 (1400/16 == 87.5) */ 
   .wrapper_size_l {
@@ -1656,6 +1686,9 @@
     margin-right: 30px;
   }
   .footer-menu{
+    padding: 0;
+  }
+  .nav-collapsed .header__wrap{
     padding: 0;
   }
 }
