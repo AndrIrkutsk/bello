@@ -15,64 +15,9 @@
   <script src="js/script.js" defer></script>
 </head>
 <body class="body">
-  <header class="header header_m">
-    <div class="wrapper wrap-horizon wrapper_size_m">
 
-      <div class="header__logo logo">
-        <a href="index.html" class="logo__link">
-          <svg class="logo__icon icon-logo" width="95" height="35">
-            <use xlink:href="img/icons.svg#logo"></use>
-          </svg>
-        </a>
-      </div>
-      <!-- /.header__logo -->
-      <ul class="header__nav-list nav-head">
-        <li class="header__nav-item">
-          <a href="#" class="header__nav-link">Life insurance</a>
-        </li>
-        <li class="header__nav-item">
-          <a href="#" class="header__nav-link header__nav-link_active">Why Bello</a>
-        </li>
-        <li class="header__nav-item">
-          <a href="#" class="header__nav-link">Help</a>
-        </li>
-      </ul>
-      <!-- /.header__nav-list -->
-
-      <div class="header__btns btn-head wrap-horizon">
-        <button class="btn-head__login login-btn open-modal hvr-wobble-horizontal">Log in</button>
-        <a class="btn-head__price price-btn fw-600 hvr-buzz" href="#cardinfo">Get my price</a>
-
-        <div class="mobile-menu">
-          <div class="mobile-menu__body">
-            <div class="mobile-menu__burger">
-              <span></span>
-            </div>
-            <nav class="mobile-menu__cont">
-              <div class="mobile-menu__list">
-                <li>
-                  <a href="#" class="mobile-menu__link mobile-menu__link_active">Life insurance</a>
-                </li>
-                <li>
-                  <a href="#" class="mobile-menu__link">Why Bello</a>
-                </li>
-                <li>
-                  <a href="#" class="mobile-menu__link">Help</a>
-                </li>
-                <button class="mobile-menu__login mobile-btn hvr-wobble-horizontal">Log in</button>
-                <a class="mobile-menu__price mobile-price-btn fw-600 hvr-buzz" href="#cardinfo">Get my price</a>
-              </div>
-            </nav>
-          </div>
-        </div>
-        <!-- /.mobile-menu -->
-      </div>
-      <!-- /.header__btns -->
-
-    </div>
-    <!-- /.header-wrapper -->
-  </header>
-
+  <div id="hero" style="position: absolute;top:0"></div>
+  
   <section class="head-content">
     <div class="wrapper clearfix head-content__wrap wrapper_size_l">
 
@@ -158,14 +103,73 @@
       <div class="head-content__img-wrap img-top img-size_top">
         <img class="head-content__img" alt="family under an umbrella"
           src="img/tophead-small.png"
-          srcset="img/tophead-small.png 560w,
-                img/tophead-medium.png 800w,
-                img/tophead-big.png 1280w"> 
+          srcset="img/tophead-big.png 1280w, 
+                  img/tophead-medium.png 800w, 
+                  img/tophead-small.png 560w" 
+          sizes="(min-width: 35em) 33.3vw, 100vw"> 
       </div>
 
     </div>
     <!-- /.wrapper -->
   </section>
+
+  <header class="header transparent-white header_m">
+    <div class="wrapper header__wrap wrap-horizon wrapper_size_m">
+
+      <div class="header__logo logo">
+        <a href="#hero" class="logo__link">
+          <svg class="logo__icon icon-logo" width="95" height="35">
+            <use xlink:href="img/icons.svg#logo"></use>
+          </svg>
+        </a>
+      </div>
+      <!-- /.header__logo -->
+      <ul class="header__nav-list nav-head">
+        <li class="header__nav-item">
+          <a data-scroll href="#lifeinsur" class="header__nav-link">Life insurance</a>
+        </li>
+        <li class="header__nav-item">
+          <a data-scroll href="#whybello" class="header__nav-link header__nav-link_active">Why Bello</a>
+        </li>
+        <li class="header__nav-item">
+          <a data-scroll href="#cardinfo" class="header__nav-link">Help</a>
+        </li>
+      </ul>
+      <!-- /.header__nav-list -->
+
+      <div class="header__btns btn-head wrap-horizon">
+        <button class="btn-head__login login-btn open-modal hvr-wobble-horizontal">Log in</button>
+        <a class="btn-head__price price-btn fw-600 hvr-buzz" href="#cardinfo">Get my price</a>
+
+        <div class="mobile-menu">
+          <div class="mobile-menu__body">
+            <div class="mobile-menu__burger">
+              <span></span>
+            </div>
+            <nav class="mobile-menu__cont">
+              <ul class="mobile-menu__list">
+                <li>
+                  <a href="#" class="mobile-menu__link mobile-menu__link_active">Life insurance</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__link">Why Bello</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__link">Help</a>
+                </li>
+              </ul>
+              <button class="mobile-menu__login mobile-btn hvr-wobble-horizontal">Log in</button>
+              <a class="mobile-menu__price mobile-price-btn fw-600 hvr-buzz" href="#cardinfo">Get my price</a>
+            </nav>
+          </div>
+        </div>
+        <!-- /.mobile-menu -->
+      </div>
+      <!-- /.header__btns -->
+
+    </div>
+    <!-- /.header-wrapper -->
+  </header>
 
   <section class="coverage bg-beige">
     <div class="coverage__mainwrap wrapper wrapper_size_s wrap-df">
@@ -201,7 +205,7 @@
     </div>
   </section>
 
-  <section class="bellohelp">
+  <section class="bellohelp" id="lifeinsur">
     <div class="wrapper bellohelp__wrap wrapper_size_s wrap-df">
 
       <div class="bellohelp__insurance insure wow animate__animated animate__bounceInLeft" data-wow-duration="1s">      
@@ -240,8 +244,6 @@
         </div>
       </div>
       <!-- /.bello-pic -->
-
-      
       
     </div>
   </section>
@@ -295,7 +297,7 @@
   </section>
   <!-- /.life-insur -->
   
-  <section class="works">
+  <section class="works" id="whybello">
     <div class="life-insur__img-dog"></div>
     <div class="wrapper works__wrap wrapper_size_s">
 
@@ -629,7 +631,6 @@
   </svg>
 
   <!-- // modal 2 -->
-
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
   <script src="js/gsap.min.js"></script>
