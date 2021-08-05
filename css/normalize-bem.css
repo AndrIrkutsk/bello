@@ -1,0 +1,322 @@
+/**
+ * 1. Исправьте высоту строки во всех браузерах.
+ * 2. Запретить корректировку размера шрифта после изменения ориентации в iOS.
+ */
+.crossbrow-html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Убрать margin во всех браузерах.
+ */
+.body {
+  margin: 0;
+}
+
+.bxsz-brbx{
+  box-sizing: border-box;
+}
+
+/* clearfix для плавающих элементов для отмены обтекания */
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+
+.res-mrg{
+  margin: 0;
+}
+.res-pdg{
+  padding: 0;
+}
+.res-pdg-mrg{
+  padding: 0;
+  margin: 0;
+}
+
+/* Последовательно визуализируйте основной элемент в IE. */
+.main {
+  display: block;
+}
+
+/**
+ * Исправьте font-size и margin для элементов `h1` внутри `section`  
+ * и `article` Контекстa в Chrome, Firefox и Safari.
+ */
+.crossbrow-h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * 1. Добавьте правильный box sizing в Firefox.
+ * 2. Показать overflow в Edge и IE.
+ */
+.crossbrow-hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+  * 1. Исправьте наследование и масштабирование font size во всех браузерах.
+  * 2. Исправьте неправильный размер шрифта em во всех браузерах.
+*/
+.crossbrow-pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* 
+========================================================================== 
+ * Удалите серый фон на активных ссылках в IE 10.
+*/
+.crossbrow-a {
+  background-color: transparent;
+}
+
+/**
+  * 1. Удалите нижнюю границу в Chrome 57-
+  * 2. Добавьте правильное text decoration в Chrome, Edge, IE, Opera и Safari.
+  * <abbr title="Cascading Style Sheets" class="crossbrow-abbr">CSS</abbr>
+*/
+.crossbrow-abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Добавьте правильный font weight в Chrome, Edge и Safari.
+ */
+.crossbrow-b,
+.crossbrow-strong {
+  font-weight: bolder;
+}
+
+/**
+  * 1. Исправьте наследование и масштабирование font size во всех браузерах.
+  * 2. Исправьте неправильный размер шрифта em во всех браузерах.
+ */
+.crossbrow-code,
+.crossbrow-kbd,
+.crossbrow-samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Добавьте правильный размер шрифта во всех браузерах.
+ */
+.crossbrow-small {
+  font-size: 80%;
+}
+
+/**
+  * Предотвращение влияния элементов `sub` и` sup` на line height во всех браузерах.
+ */
+.crossbrow-sub,
+.crossbrow-sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.sub {
+  bottom: -0.25em;
+}
+.sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+========================================================================== */
+/**
+ * Удалите border на изображениях внутри ссылок в IE 10.
+*/
+.crossbrow-img {
+  border-style: none;
+}
+
+/* Forms
+========================================================================== */
+/**
+ * 1. Измените font style во всех браузерах.
+ * 2. Удалите margin в Firefox и Safari.
+*/
+.crossbrow-button,
+.crossbrow-input,
+.crossbrow-optgroup,
+.crossbrow-select,
+.crossbrow-textarea {
+   font-family: inherit; /* 1 */
+   font-size: 100%; /* 1 */
+   line-height: 1.15; /* 1 */
+   margin: 0; /* 2 */
+ }
+ 
+/**
+  * Показать overflow в IE.
+  * 1. Показать overflow в Edge.
+*/
+.crossbrow-button,
+.crossbrow-input { /* 1 */
+  overflow: visible;
+}
+
+/**
+  * Удалите наследование text transform в Edge, Firefox и IE.
+  * 1. Удалите наследование text transform в Firefox.
+*/
+.crossbrow-button,
+.crossbrow-select { /* 1 */
+  text-transform: none;
+}
+
+/**
+  * Исправлена ​​невозможность стилизации интерактивных типов в iOS и Safari.
+*/
+.crossbrow-button,
+.crossbrow[type="button"],
+.crossbrow[type="reset"],
+.crossbrow[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+  * Удалите inner border и padding в Firefox.
+*/
+.crossbrow-button::-moz-focus-inner,
+.crossbrow[type="button"]::-moz-focus-inner,
+.crossbrow[type="reset"]::-moz-focus-inner,
+.crossbrow[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+  * Восстановите стили фокуса, не установленные предыдущим правилом.
+*/
+.crossbrow-button:-moz-focusring,
+.crossbrow[type="button"]:-moz-focusring,
+.crossbrow[type="reset"]:-moz-focusring,
+.crossbrow[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+  * Исправьте padding в Firefox.
+*/
+.crossbrow-fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+  * 1. Исправьте text wrapping в Edge и IE.
+  * 2. Исправьте наследование color от элементов `fieldset` в IE.
+  * 3. Удалите padding, чтобы разработчики не попали в ловушку при обнулении 
+  * элементов `fieldset` во всех браузерах.
+*/
+.crossbrow-legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+  * Добавьте правильное vertical alignment в Chrome, Firefox и Opera.
+*/
+.crossbrow-progress {
+  vertical-align: baseline;
+}
+
+/**
+  * Удалите vertical scrollbar по умолчанию в IE 10+.
+*/
+.crossbrow-textarea {
+  overflow: auto;
+}
+
+/**
+  * 1. Добавьте правильный box sizing в IE 10.
+  * 2. Удалите padding в IE 10.
+*/
+.crossbrow[type="checkbox"],
+.crossbrow[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+  * Исправьте стиль курсора кнопок увеличения и уменьшения в Chrome.
+*/
+.crossbrow[type="number"]::-webkit-inner-spin-button,
+.crossbrow[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+  * 1. Исправьте странный вид в Chrome и Safari.
+  * 2. Исправьте стиль outline style в Safari.
+*/
+.crossbrow[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+  * Удалите внутренний padding в Chrome и Safari на macOS.
+*/
+.crossbrow[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+  * 1. Исправлена ​​невозможность стилизации интерактивных типов в iOS и Safari.
+  * 2. Измените свойства шрифта на «наследование»(`inherit`) в Safari.
+*/
+.crossbrow::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+  ========================================================================== */
+/*
+ * Добавьте правильный display в Edge, IE 10+ и Firefox.
+*/
+.crossbrow-details {
+  display: block;
+}
+
+/*
+ * Добавить правильное отображение display во всех браузерах.
+*/
+.crossbrow-summary {
+  display: list-item;
+}
+
+/* Misc
+========================================================================== */
+
+/**
+ * Добавить правильный display в IE 10+.
+*/
+.crossbrow-template {
+  display: none;
+}
+
+/**
+ * Добавить правильный display в IE 10.
+*/
+.crossbrow[hidden] {
+  display: none;
+}

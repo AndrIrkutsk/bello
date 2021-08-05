@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bello</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="css/hover.css" rel="stylesheet" media="all">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body class="body">
+  <header class="header header_m">
+    <div class="wrapper wrap-horizon wrapper_size_m">
+
+      <div class="header__logo logo">
+        <a href="index.html" class="logo__link">
+          <svg class="logo__icon icon-logo" width="95" height="35">
+            <use xlink:href="img/icons.svg#logo"></use>
+          </svg>
+        </a>
+      </div>
+      <!-- /.header__logo -->
+      <ul class="header__nav-list nav-head">
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Life insurance</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link header__nav-link_active">Why Bello</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Help</a>
+        </li>
+      </ul>
+      <!-- /.header__nav-list -->
+
+      <div class="header__btns btn-head wrap-horizon">
+        <button class="btn-head__login login-btn open-modal hvr-wobble-horizontal">Log in</button>
+        <a class="btn-head__price price-btn fw-600 hvr-buzz" href="#cardinfo">Get my price</a>
+
+        <div class="mobile-menu">
+          <div class="mobile-menu__body">
+            <div class="mobile-menu__burger">
+              <span></span>
+            </div>
+            <nav class="mobile-menu__cont">
+              <div class="mobile-menu__list">
+                <li>
+                  <a href="#" class="mobile-menu__link mobile-menu__link_active">Life insurance</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__link">Why Bello</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__link">Help</a>
+                </li>
+                <button class="mobile-menu__login mobile-btn hvr-wobble-horizontal">Log in</button>
+                <a class="mobile-menu__price mobile-price-btn fw-600 hvr-buzz" href="#cardinfo">Get my price</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- /.mobile-menu -->
+      </div>
+      <!-- /.header__btns -->
+
+    </div>
+    <!-- /.header-wrapper -->
+  </header>
+
+  <section class="head-content">
+    <div class="wrapper clearfix head-content__wrap wrapper_size_l">
+
+      <div class="head-content__info info-content">
+        <p class="info-content__title res-mrg">MEET BELLO</p>
+        <h1 class="info-content__heading res-mrg">
+          A new kind of<br /> 
+          life insurance
+        </h1>
+        <p class="info-content__text text-info text-info_infotext res-mrg">
+          Secure your family's financial future,<br /> 
+          in as little as 10 minutes.
+        </p>
+
+        <!-- modal price -->
+        <div id="modal-container">
+          <div class="modal-background">
+            <div class="modal2">
+              <h2>Выберите тариф</h2>
+             
+              <div id="pricing-table" class="clear">
+                <button class="modal-close-price">×</button>
+                <div class="plan">
+                  <h3>Enterprise<span>$59</span></h3>
+                  <a class="signup" href="">Sign up</a>         
+                  <ul>
+                    <li><b>10GB</b> Disk Space</li>
+                    <li><b>100GB</b> Monthly Bandwidth</li>
+                    <li><b>20</b> Email Accounts</li>
+                    <li><b>Unlimited</b> subdomains</li>			
+                  </ul> 
+                </div>
+                <div class="plan" id="most-popular">
+                  <h3>Professional<span>$29</span></h3>
+                  <a class="signup" href="">Sign up</a>        
+                  <ul>
+                    <li><b>5GB</b> Disk Space</li>
+                    <li><b>50GB</b> Monthly Bandwidth</li>
+                    <li><b>10</b> Email Accounts</li>
+                    <li><b>Unlimited</b> subdomains</li>			
+                  </ul>    
+                </div>
+                <div class="plan">
+                  <h3>Standard<span>$17</span></h3>
+                  <a class="signup" href="">Sign up</a>
+                  <ul>
+                    <li><b>3GB</b> Disk Space</li>
+                    <li><b>25GB</b> Monthly Bandwidth</li>
+                    <li><b>5</b> Email Accounts</li>
+                    <li><b>Unlimited</b> subdomains</li>			
+                  </ul>
+                </div>
+                <div class="plan">
+                  <h3>Basic<span>$9</span></h3>
+                  <a class="signup" href="">Sign up</a>		
+                  <ul>
+                    <li><b>1GB</b> Disk Space</li>
+                    <li><b>10GB</b> Monthly Bandwidth</li>
+                    <li><b>2</b> Email Accounts</li>
+                    <li><b>Unlimited</b> subdomains</li>			
+                  </ul>
+                </div> 	
+              </div>
+
+              <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="buttons">
+            <button class="info-content__button general-price button hvr-icon-wobble-horizontal hvr-ripple-out" id="one">
+              <span class="general-price__text general-price_fontwidth">Get my price</span> 
+              <svg class="general-price__icon hvr-icon" width="30" height="11">
+                <use xlink:href="img/icons.svg#arrowRight"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <div class="head-content__img-wrap img-top img-size_top">
+        <img class="head-content__img" alt="family under an umbrella"
+          src="img/tophead-small.png"
+          srcset="img/tophead-small.png 560w,
+                img/tophead-medium.png 800w,
+                img/tophead-big.png 1280w"> 
+      </div>
+
+    </div>
+    <!-- /.wrapper -->
+  </section>
+
+  <section class="coverage bg-beige">
+    <div class="coverage__mainwrap wrapper wrapper_size_s wrap-df">
+      
+      <div class="coverage__million wow animate__animated animate__slideInLeft" data-wow-duration="1s">
+        <div class="coverage__wrap million-coverage">
+          <div class="million-coverage__img"></div>
+        </div>
+        <p class="coverage__info">Data for illustrative purposes</p>
+      </div>
+      <!-- /.million-coverage -->
+      
+      <div class="coverage__insurance insure wow animate__animated animate__slideInLeft" data-wow-duration="1s">     
+        <p class="insure__title title_insure res-mrg">Secure your future</p>
+        <h2 class="insure__heading head_insure res-mrg">
+          It’s more affordable<br /> 
+          than you think
+        </h2>
+        <p class="insure__text text-info text-info_insuretext res-mrg">
+          Life insurance shouldn’t be confusing or expensive. Bello’s term life insurance makes 
+          protecting your loved ones easy and affordable.
+        </p>
+        <button class="insure__button res-pdg insure-price wrap-horizon hvr-icon-wobble-horizontal hvr-forward">
+          <span class="insure-price__text insure-price_fontwidth">Get My Price</span> 
+          <svg class="insure-price__icon icon-price hvr-icon" width="30" height="11">
+            <use xlink:href="img/icons.svg#arrowRight"></use>
+          </svg>
+        </button>
+
+      </div>
+      <!-- /.insure -->
+
+    </div>
+  </section>
+
+  <section class="bellohelp">
+    <div class="wrapper bellohelp__wrap wrapper_size_s wrap-df">
+
+      <div class="bellohelp__insurance insure wow animate__animated animate__bounceInLeft" data-wow-duration="1s">      
+        <p class="insure__title title_insure res-mrg">Technology meets service</p>
+        <h2 class="insure__heading-help head_insure_500-fw res-mrg">
+          We're here to help
+        </h2>
+        <p class="insure__text-help text-info text-info_insuretext res-mrg">
+          Bella, our smart bot, can guide you to your <br />perfect policy. There’s also human help <br />whenever you need it.
+        </p>
+        <button class="insure__button res-pdg insure-price wrap-horizon hvr-icon-wobble-horizontal hvr-forward">
+          <span class="insure-price__text insure-price_fontwidth">Get help</span> 
+          <svg class="insure-price__icon icon-price hvr-icon" width="30" height="11">
+            <use xlink:href="img/icons.svg#arrowRight"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- /.insure -->
+
+      <div class="bello-pic wow animate__animated animate__bounceInRight" data-wow-duration="1s">
+        <div class="bello-pic__wrap bello-pic__wrap_right">
+          <div class="bello-pic__circles bello-pic__circles_size_m circles"></div>
+
+          <div class="grid">
+            <figure class="grid__effect-bubba">
+              <img src="img/mom-dother.png" class="grid__img" alt="img02"/>
+              <figcaption class="grid__figcaption">
+                <h2 class="grid__title">Fresh <span class="grid__title-span">Bubba</span></h2>
+                <p class="grid__text">Bubba likes to appear out of thin air.</p>
+                <a href="#" class="grid__link">View more</a>
+              </figcaption>			
+            </figure>
+          </div>
+
+          <div class="bello-pic__pic-text bello-pic__text_sz_lg text-bellohelp">There's also human help 👋</div>
+        </div>
+      </div>
+      <!-- /.bello-pic -->
+
+      
+      
+    </div>
+  </section>
+  <!-- /.bellohelp -->
+
+  <section class="life-insur">
+    <div class="wrapper life-insur__wrap wrapper_size_s">
+
+      <div class="life-insur__wrap-pic wrap-horizon">
+        <div class="life-insur__umbrella-pic pic-life-insur"></div>
+      </div>
+
+      <div class="life-insur__title title-descrp fw-600 txt-center wow animate__animated animate__jackInTheBox" data-wow-duration="1.5s">Top-Rated Term Life Insurance</div>
+      <h2 class="life-insur__heading res-mrg fw-500 wow animate__animated animate__zoomInLeft" data-wow-duration="1.7s">You’re in safe hands</h2>
+      <p class="life-insur__text txt-lifeins res-mrg wow animate__animated animate__zoomInRight" data-wow-duration="2s">
+        We've partnered with, [insert underwriter], one of the world’s largest, most trusted insurance companies. This <br />
+        means we can ensure reliability in paying Claims.
+      </p>
+      <div class="life-insur__carts carts-insure">
+        
+        <div class="carts-insure__cart cart-insure wow animate__animated animate__backInLeft" data-wow-duration="1.5s">
+          <img src="img/aplus.png" alt="Image A+" class="cart-insure__img-first">
+          <div class="cart-insure__title-first cart-ins-title">Top-Rated</div>
+          <div class="cart-insure__text-first cart-insure__text_size_m cart-ins-txt">
+            A+ Financial Strength Rating by <br />A.M. Best.
+            <a href="#" class="cart-insure__quest">what does this mean?</a>
+          </div>
+        </div>
+        <!-- /.carts-insure__cart -->
+        <div class="carts-insure__cart cart-insure wow animate__animated animate__backInUp" data-wow-duration="1.5s">
+          <img src="img/guidance.png" alt="Image Expert guidance" class="cart-insure__img-second">
+          <div class="cart-insure__title-second cart-ins-title">Expert guidance</div>
+          <div class="cart-insure__text-second cart-insure__text_size_s cart-ins-txt txt-center">
+            We've placed millions of dollars in coverage <br />people nationwide.
+          </div>
+        </div>
+        <!-- /.carts-insure__cart -->
+        <div class="carts-insure__cart cart-insure wow animate__animated animate__backInRight" data-wow-duration="1.5s">
+          <img src="img/stars.png" alt="Image We care" class="cart-insure__img-thirth">
+          <div class="cart-insure__title-thirth cart-ins-title">We care</div>
+          <div class="cart-insure__text-thirth cart-insure__text_size_n cart-ins-txt txt-center">
+            We care about you. We’re a 5 <br />star insurance company. Well… <br />Close enough!
+          </div>
+        </div>
+        <!-- /.carts-insure__cart -->
+
+      </div>
+      <!-- /.wrap-horizon -->
+      
+    </div>
+  </section>
+  <!-- /.life-insur -->
+  
+  <section class="works">
+    <div class="life-insur__img-dog"></div>
+    <div class="wrapper works__wrap wrapper_size_s">
+
+      <p class="works__title title-descrp fw-500 txt-center res-mrg wow animate__animated animate__jackInTheBox" data-wow-duration="1.5s">How it works</p>
+      <h2 class="works__heading res-mrg wow animate__animated animate__zoomInLeft" data-wow-duration="1.5s">Affordable life insurance in minutes</h2>
+      <p class="works__text res-mrg wow animate__animated animate__zoomInRight" data-wow-duration="1.5s">
+        We use technology to save you time and money – no pushy sales agents, <br />
+        paperwork, or extra fees. Just a few clicks and you’re done.
+      </p>
+      
+      <div class="works__carts-wrap">
+        <svg class="works__icon-stroke stroke-icon" width="710" height="35" fill="none">
+          <use xlink:href="img/icons.svg#path"></use>
+        </svg>
+        <div class="works__cart-fst works__cart-fst_size-sm cart-works wow animate__animated animate__rotateIn" data-wow-duration="1s">
+          <svg class="works__icon-crcl-fst circle-icon" width="32" height="32">
+            <use xlink:href="img/icons.svg#gray_circle"></use>
+          </svg>
+          <img src="img/one.png" class="works__img-cart-fst works-img-cart" alt="Image of number 1">
+          <h3 class="works__subtitle">Get My Price</h3>
+          <p class="works__text-cart">Choose the amount that you <br />would like to be covered for <br />and we’ll give you a quote.</p>
+        </div>
+        <!-- /.works__cart -->
+        <div class="works__cart-sec works__cart-fst_size-sm cart-works wow animate__animated animate__rotateIn" data-wow-duration="0.5s">
+          <svg class="works__icon-crcl-sec circle-icon" width="32" height="32">
+            <use xlink:href="img/icons.svg#gray_circle"></use>
+          </svg>
+          <img src="img/two.png" class="works__img-cart-sec works-img-cart" alt="Image of number 2">
+          <h3 class="works__subtitle">Apply</h3>
+          <p class="works__text-cart">Answer a few questions and <br />get your final price..</p>
+        </div>
+        <!-- /.works__cart -->
+        <div class="works__cart-thrth works__cart-fst_size-n cart-works wow animate__animated animate__rotateOut" data-wow-duration="1s">
+          <svg class="works__icon-crcl-thrth circle-icon" width="32" height="32">
+            <use xlink:href="img/icons.svg#gray_circle"></use>
+          </svg>
+          <img src="img/three.png" class="works__img-cart-thrth works-img-cart" alt="Image of number 3">
+          <h3 class="works__subtitle">You’re Covered</h3>
+          <p class="works__text-cart">Congratulations on securing <br />your loved ones financial future!</p>
+        </div>
+        <!-- /.works__cart -->
+      </div>
+      <!-- /.works__carts-wrap -->
+      
+      <img src="img/confetti.png" class="works__img-confetti confetti" alt="Image of number 3">
+
+      <button class="works__button general-price hvr-icon-wobble-horizontal hvr-ripple-out">
+        <span class="general-price__text">Get my price</span> 
+        <svg class="general-price__icon hvr-icon" width="30" height="11">
+          <use xlink:href="img/icons.svg#arrowRight"></use>
+        </svg>
+      </button>
+      
+    </div>
+  </section>
+  <!-- /.works -->
+
+  <section class="bellofree bg-beige">
+    <div class="wrapper bellofree__wrap wrap-df wrapper_size_s">
+
+      <div class="bellofree__pic bello-pic wow animate__animated animate__bounceInLeft" data-wow-duration="1.5s">
+        <div class="bello-pic__wrap">
+          <div class="bello-pic__circles circles bello-pic__circles_size_m"></div>
+          
+          <div class="grid">
+            <figure class="grid__effect-bubba">
+              <img src="img/mom-dother-2.png" class="grid__img" alt="Image mom dother"/>
+              <figcaption class="grid__figcaption">
+                <h2 class="grid__title">Fresh <span class="grid__title-span">Bubba</span></h2>
+                <p class="grid__text">Bubba likes to appear out of thin air.</p>
+                <a href="#" class="grid__link">View more</a>
+              </figcaption>			
+            </figure>
+          </div>
+
+          <div class="bello-pic__pic-text bello-pic__text_sz_nrm text-bellohelp">Nerd out in our Learning Center 🤓</div>
+        </div>
+      </div>
+      <!-- /.bello-pic -->
+
+      <div class="bellofree__insurance bellofree__insurance_pos insure wow animate__animated animate__bounceInRight" data-wow-duration="1.5s">     
+        <p class="insure__bellofree-title title_insure res-mrg">You've Got This</p>
+        <h2 class="insure__heading-help head_ins_500-fw-sz res-mrg">
+          Everything you need — <br />completely free
+        </h2>
+        <p class="insure__text-bellofree text-info text-info_insuretext negative-lsp res-mrg">
+          Here’s the latest info, guides, and, helpful tools, from <br />the Bello team. Learn about life insurance, finances, <br />health and wellness.
+        </p>
+        <button class="insure__button res-pdg insure-price wrap-horizon hvr-icon-wobble-horizontal hvr-forward">
+          <span class="insure-price__text insure-price_font">Visit Learning Center</span> 
+          <svg class="insure-price__icon icon-price hvr-icon" width="30" height="11">
+            <use xlink:href="img/icons.svg#arrowRight"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- /.insure -->
+
+    </div>
+  </section>
+  <!-- /.bellofree -->
+
+  <section class="cards-info" id="cardinfo">
+    <div class="cards-info__wrapper wrapper wrap-horizon-sb wrapper_size_s">
+
+      <div class="cards-info__card info-card bgc-blue wow animate__animated animate__rotateInUpRight" data-wow-duration="1.5s">
+        <h3 class="cards-info__title cards-info__title_pb65 title-cards res-mrg clr-blue">Calculator</h3>
+        <p class="cards-info__text txt-cards res-mrg">How much life insurance do I <br />need?</p>
+        <button class="cards-info__btn res-pdg insure-price wrap-horizon hvr-icon-wobble-horizontal hvr-forward">
+          <span class="insure-price__text insure-price_txt-bold clr-blue">Calculate Coverage</span> 
+          <svg class="insure-price__icon insure-price__icon_clr-blue hvr-icon" width="30" height="11">
+            <use xlink:href="img/icons.svg#arrowRight"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- /.cards-info__card -->
+      <div class="cards-info__card info-card bgc-orange wow animate__animated animate__flipInX" data-wow-duration="1.5s">
+        <h3 class="cards-info__title cards-info__title_pb21 title-cards-sm res-mrg clr-orange">Term vs. <br />perm</h3>
+        <p class="cards-info__text txt-cards-sm res-mrg">Term vs. whole life insurance. <br />Which is best for you?</p>
+        <button class="cards-info__btn res-pdg btn-cards insure-price wrap-horizon hvr-icon-wobble-horizontal hvr-forward">
+          <span class="insure-price__text insure-price_txt-bold clr-orange">See the winner</span> 
+          <svg class="insure-price__icon insure-price__icon_clr-orange hvr-icon" width="30" height="11">
+            <use xlink:href="img/icons.svg#arrowRight"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- /.cards-info__card -->
+      <div class="cards-info__card info-card bgc-red wow animate__animated animate__flipInX" data-wow-duration="1.5s">
+        <h3 class="cards-info__title cards-info__title_pb63 title-cards res-mrg clr-red">Pricing</h3>
+        <p class="cards-info__text txt-cards res-mrg">How much does life <br />insurance cost?</p>
+        <button class="cards-info__btn res-pdg btn-cards insure-price wrap-horizon hvr-icon-wobble-horizontal hvr-forward">
+          <span class="insure-price__text insure-price_txt-bold clr-red">Tell me more</span> 
+          <svg class="insure-price__icon insure-price__icon_clr-red hvr-icon" width="30" height="11">
+            <use xlink:href="img/icons.svg#arrowRight"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- /.cards-info__card -->
+      <div class="cards-info__card info-card bgc-darkcyan wow animate__animated animate__rotateInUpLeft" data-wow-duration="1.5s">
+        <h3 class="cards-info__title cards-info__title_pb20 title-cards res-mrg clr-darkcyan">Insurance <br />101</h3>
+        <p class="cards-info__text txt-cards res-mrg">The ultimate guide to life <br />insurance.</p>
+        <button class="cards-info__btn res-pdg btn-cards insure-price wrap-horizon hvr-icon-wobble-horizontal hvr-forward">
+          <span class="insure-price__text insure-price_txt-norm clr-darkcyan">Become an expert</span> 
+          <svg class="insure-price__icon insure-price__icon_clr-darkcyan hvr-icon" width="30" height="11">
+            <use xlink:href="img/icons.svg#arrowRight"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- /.cards-info__card -->
+
+    </div>
+  </section>
+  <!-- /.cards-info -->
+
+  <section class="startoday">
+    <div class="startoday__wrapper wrapper wrapper_size_s">
+      
+      <img src="img/umberlla3.png" class="startoday__img-umbrella" alt="Изображение человека с зонтиком">
+      <h2 class="startoday__heading head_insure txt-center res-mrg wow animate__animated animate__bounceInLeft" data-wow-duration="2s">
+        Get Started Today.
+      </h2>
+      <p class="startoday__text txt-lifeins res-mrg wow animate__animated animate__bounceInRight" data-wow-duration="2s">
+        Join the Bello community of people who are securing their financial future.
+      </p>
+      <button class="works__button general-price hvr-icon-wobble-horizontal hvr-ripple-out">
+        <span class="general-price__text">Get my price</span> 
+        <svg class="general-price__icon hvr-icon" width="30" height="11">
+          <use xlink:href="img/icons.svg#arrowRight"></use>
+        </svg>
+      </button>
+      <img src="img/woman.png" 
+           class="startoday__img-woman wow animate__animated animate__bounceInUp" 
+           data-wow-duration="2s" 
+           alt="Изображение женщины">
+
+    </div>
+  </section>
+  <!-- /.startoday -->
+
+  <section class="contacts">
+    <div class="contacts__wrapper wrapper wrapper_size_sm">
+
+      <div class="contacts__form goto">
+
+        <div class="goto__logo logo">
+          <a href="index.html" class="logo__link">
+            <svg class="logo__icon icon-logo" width="95" height="35">
+              <use xlink:href="img/icons.svg#logo"></use>
+            </svg>
+          </a>
+        </div>
+        <p class="goto__text negative-lsp res-mrg">Bello is a trading name of Bello Insurance Services <br />LLC. Bello policies are issued by [Insert Underwriter <br />here].</p>
+        <div class="goto__form-elems">
+
+          <form action="/" class="goto__form" method="POST">
+            <input type="text" class="goto__form-text" name="name">
+            <button type="submit" class="goto__form-submit wrap-horizon">
+              <span class="goto__form-button-text">Go</span>
+              <svg class="icon goto__form-icon" width="21" height="21">
+                <use xlink:href="img/icons.svg#arrowWhite"></use>
+              </svg>
+            </button>
+          </form>
+
+        </div>
+        <div class="contacts__social">
+          <svg class="contacts__soc-icon hvr-pulse-grow" width="9" height="18" >
+            <use xlink:href="img/icons.svg#facebook"></use>
+          </svg>
+          <svg class="contacts__soc-icon hvr-pulse-grow" width="18" height="18">
+            <use xlink:href="img/icons.svg#insta"></use>
+          </svg>
+          <svg class="contacts__soc-icon hvr-pulse-grow" width="26" height="18">
+            <use xlink:href="img/icons.svg#youtube"></use>
+          </svg>
+          <svg class="contacts__soc-icon hvr-pulse-grow" width="18" height="18">
+            <use xlink:href="img/icons.svg#linkedin"></use>
+          </svg>
+          <svg class="contacts__soc-icon hvr-pulse-grow" width="15" height="18">
+            <use xlink:href="img/icons.svg#tiktok"></use>
+          </svg>
+        </div>
+        <!-- /.contacts__social -->
+
+      </div>
+      <!-- /.contacts__form -->
+      <div class="contacts__menu">
+
+        <div class="desctop-footer-menu">
+          <nav class="contacts__menu-resource footer-menu">
+            <h3 class="footer-menu__title">Resources</h3>
+            <a href="#" class="footer-menu__item footer-menu-link">Term life insurance plans</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Insurance calculator</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Guide to life insurance</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Contact</a>
+            <a href="#" class="footer-menu__item footer-menu-link">FAQs</a>
+          </nav>
+          <nav class="contacts__menu-magazine footer-menu">
+            <h3 class="footer-menu__title">Magazine</h3>
+            <a href="#" class="footer-menu__item footer-menu-link">Insurance</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Finances</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Health</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Updates</a>
+          </nav>
+          <nav class="contacts__menu-more footer-menu">
+            <h3 class="footer-menu__title">More</h3>
+            <a href="#" class="footer-menu__item footer-menu-link">Claims</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Terms</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Privacy</a>
+            <a href="#" class="footer-menu__item footer-menu-link">Licenses</a>
+          </nav>
+        </div>
+
+        <div class="mobile-footer-menu">
+          <div class="spoiler one"> <!-- убрать класс one и будет обычный спойлер -->
+            <div class="spoiler__item">
+              <div class="spoiler__title">Resources</div>
+              <div class="spoiler__text">
+                <nav class="contacts__menu-resource footer-menu">
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Term life insurance plans</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Insurance calculator</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Guide to life insurance</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Contact</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">FAQs</a>
+                </nav>
+              </div>
+            </div>
+            <div class="spoiler__item">
+              <div class="spoiler__title">Magazine</div>
+              <div class="spoiler__text">
+                <nav class="contacts__menu-magazine footer-menu">
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Insurance</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Finances</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Health</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Updates</a>
+                </nav>
+              </div>
+            </div>
+            <div class="spoiler__item">
+              <div class="spoiler__title">More</div>
+              <div class="spoiler__text">
+                <nav class="contacts__menu-more footer-menu">
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Claims</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Terms</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Privacy</a>
+                  <a href="#" class="spoiler__menu-item footer-menu-link">Licenses</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.contacts__menu -->
+
+    </div>
+  </section>
+  <!-- /.contacts -->
+
+  <section class="footer">
+    <div class="footer__wrapper wrapper wrapper_size_s">
+      
+      <p class="footer__copyright">© 2020 Bello insurance Services LLC. All right reserved.</p>
+      <div class="header__btns header__btns_center btn-head">
+        <button class="btn-footer__price price-btn hvr-buzz ">Get my price</button>
+      </div>
+
+    </div>
+  </section>
+  <!-- /.footer -->
+
+
+  <!-- // modal 1 -->
+  <div class="modal-overlay"></div>
+    
+  <div class="modal" aria-hidden="true">
+    <button class="close-modal">×</button>
+    <div class="icon">
+      <i class="fa fa-user-plus"></i> 
+    </div>
+    <h1 class="modal__title">Sign In</h1>
+    <input class="input-modal input-text" type="text" placeholder="Login"/>
+    <input class="input-modal input-text" type="text" placeholder="Enter Pass"/>
+    <input class="input-modal input-submit modal__submit" type="submit" value="Some Button"/>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+      <defs>
+        <filter id="blur">
+            <feGaussianBlur id="blur-filter" in="SourceGraphic" stdDeviation="0,0" />
+        </filter>
+    </defs>
+  </svg>
+
+  <!-- // modal 2 -->
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/modal2.js"></script>
+</body>
+</html>

@@ -1,0 +1,2682 @@
+.body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.fw-600{
+  font-weight: 600;
+}
+.fw-500{
+  font-weight: 500;
+}
+.txt-center{
+  text-align: center;
+}
+.negative-lsp{
+  letter-spacing: -1px;
+}
+
+.wrapper{
+  margin: 0 auto;
+}
+.wrapper_size_s, 
+.wrapper_size_sm, 
+.wrapper_size_m, 
+.wrapper_size_l {
+  margin: 0 auto;
+}
+.wrapper_size_m{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1320px;
+}
+.wrapper_size_l{
+  max-width: 1440px;
+}
+.wrapper_size_s{
+  max-width: 1100px;
+}
+.wrapper_size_sm{
+  max-width: 1130px;
+}
+.wrap-horizon{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrap-df{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrap-horizon-sb{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.modal{
+  margin: auto;
+}
+
+.head-content{
+  overflow-x: hidden;
+}
+.header__logo{
+/* animation: bounce;
+  animation: flash;
+  animation: pulse;
+  animation: rubberBand;*/
+  /*animation: shakeX;
+  animation: shakeY;
+  animation: headShake;
+  animation: swing;
+  animation: tada;
+  animation: wobble;
+  animation: jello; 
+  animation: heartBeat; 
+  animation: backInDown;
+  animation: backInLeft;
+  animation: backInRight;
+  animation: backInUp;
+  animation: backOutDown;
+  animation: backOutLeft;
+  animation: backOutRight;
+  animation: backOutUp;
+  animation: bounceIn;
+  animation: bounceInDown;
+  animation: bounceInLeft;
+  animation: bounceInRight;
+  animation: bounceInUp;
+  animation: bounceOut;
+  animation: bounceOutDown;
+  animation: bounceOutLeft;
+  animation: bounceOutRight;
+  animation: bounceOutUp;
+  animation: fadeIn;
+  animation: fadeInDown;
+  animation: fadeInDownBig;
+  animation: fadeInLeft;
+  animation: fadeInLeftBig;
+  animation: fadeInRight;
+  animation: fadeInRightBig;
+  animation: fadeInUp;
+  animation: fadeInUpBig;
+  animation: fadeInTopLeft;
+  animation: fadeInTopRight;
+  animation: fadeInBottomLeft;
+  animation: fadeInBottomRight;
+  animation: fadeOut;
+  animation: fadeOutDown;
+  animation: fadeOutDownBig;
+  animation: fadeOutLeft;
+  animation: fadeOutLeftBig;
+  animation: fadeOutRight;
+  animation: fadeOutRightBig;
+  animation: fadeOutUp;
+  animation: fadeOutUpBig;
+  animation: fadeOutTopLeft;
+  animation: fadeOutTopRight;
+  animation: fadeOutBottomRight;
+  animation: fadeOutBottomLeft;*/
+  -webkit-animation: flip;
+          animation: flip;
+  /*animation: flipInX;
+  animation: flipInY;
+  animation: flipOutX;
+  animation: flipOutY;
+  animation: lightSpeedInRight;
+  animation: lightSpeedInLeft;
+  animation: lightSpeedOutRight;
+  animation: lightSpeedOutLeft;
+  animation: rotateIn;
+  animation: rotateInDownLeft;
+  animation: rotateInDownRight;
+  animation: rotateInUpLeft;
+  animation: rotateInUpRight;
+  animation: rotateOut;
+  animation: rotateOutDownLeft;
+  animation: rotateOutDownRight;
+  animation: rotateOutUpLeft;
+  animation: rotateOutUpRight;
+  animation: hinge;
+  animation: jackInTheBox;
+  animation: rollIn;
+  animation: rollOut;
+  animation: zoomIn;
+  animation: zoomInDown;
+  animation: zoomInLeft;
+  animation: zoomInRight;
+  animation: zoomInUp;
+  animation: zoomOut;
+  animation: zoomOutDown;
+  animation: zoomOutLeft;
+  animation: zoomOutRight;
+  animation: zoomOutUp;
+  animation: slideInDown;
+  animation: slideInLeft;
+  animation: slideInRight;
+  animation: slideInUp;
+  animation: slideOutDown;
+  animation: slideOutLeft;
+  animation: slideOutRight; 
+  animation: slideOutUp; */
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s; /* don't forget to set a duration! */
+  --animate-repeat: 2;
+}
+.head-content__wrap{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.head-content__info{
+  position: absolute;
+  left: 7.39%;
+  top: 196.19px;
+  padding-top: 26px;
+}
+.head-content__img-wrap{
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 17px;
+  margin-bottom: 61px;
+}
+.head-content__img{
+  width: 984px;
+  height: 697px;
+}
+
+/* header section */
+.header_m{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.icon-logo{
+  fill: #F46752;
+  height: 35px;
+  border-radius: 0px;
+}
+.logo__link{
+  display: block;
+}
+.header__btns{
+  margin-left: auto;
+}
+.nav-head{
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__nav-list{
+  margin: 6.5px 0 6.5px 35px;
+  padding: 0;
+}
+.nav-head > .header__nav-item + .header__nav-item{
+  margin-left: 30px;
+}
+.header__nav-item{
+  font-size: 16px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__nav-link{
+  position: relative;
+  text-decoration: none;
+  color: #1D253C;
+  line-height: 19px;
+}
+.header__nav-link_active{
+  color: #007188;
+  border-bottom: 1px solid #007188;
+}
+.header__nav-link:before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #007188;
+  background-color: #007188;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.header__nav-link:not(.header__nav-link_active):hover:before{
+  -webkit-transform:scaleX(1);
+          transform:scaleX(1);
+}
+
+.price-btn{
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #1D253C;
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-head__price{
+  padding: 13px 31px;
+  margin-left: 40px;
+}
+.login-btn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D253C;
+}
+
+/* info-content block */
+.info-content__title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #F46752;
+
+  -webkit-animation: lightSpeedInLeft;
+
+          animation: lightSpeedInLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.info-content__heading{
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #1D253C;
+  margin-bottom: 26px;
+
+  -webkit-animation: slideInLeft;
+
+          animation: slideInLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.info-content__text{
+  margin-bottom: 40px;
+}
+.info-content__button{
+  padding: 20px 40px 20px 30px;
+}
+
+.text-info{
+  color: #5A6482;
+}
+.text-info_infotext{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+
+  -webkit-animation: slideInRight;
+
+          animation: slideInRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+/* .img-top{
+  background: url(../img/topHead.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} */
+.img-size_top{
+  width: 69%;
+  height: 697px;
+}
+
+.general-price{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F46752;
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+
+  -webkit-animation: zoomInDown;
+
+          animation: zoomInDown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.general-price__text{
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.general-price_fontwidth{
+  font-weight: 600;
+}
+.general-price__icon{
+  padding-left: 5px;
+  fill: #fff;
+}
+
+/* coverage section */
+.bg-beige{
+  background: #F9F5F2;
+}
+.bg-gray{
+  background: #F8F8F8;
+}
+.coverage__mainwrap{
+  padding: 100px 0;
+}
+.coverage__info{
+  margin: 20px 0 0 0;
+}
+.coverage__info::before{
+  content: '*';
+  font-size: 16px;
+  line-height: 19px;
+  color: #F46752;
+}
+.coverage__wrap {
+  padding: 31px 43px 32px 43px;
+}
+.coverage__million{
+  margin-right: 144px;
+}
+.million-coverage{
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 40px rgb(0 0 0 / 4%);
+          box-shadow: 0px 2px 40px rgb(0 0 0 / 4%);
+  border-radius: 0px;
+  display: inline-block;
+}
+.million-coverage__img{
+  background: url(../img/coverage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 414px;
+  height: 373px;
+}
+.million-coverage__info{
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+}
+.coverage__insurance{
+  margin-top: 82px;
+
+  -webkit-animation: slideInRight;
+
+          animation: slideInRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.insure__title{
+  margin-bottom: 26px;
+}
+.title_insure{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #F46752;
+}
+.insure__heading{
+  margin-bottom: 19px;
+}
+.insure__heading-help{
+  margin-bottom: 30px;
+  width: 496px;
+}
+.insure__text-help{
+  margin-bottom: 15px;
+}
+.head_insure{
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+  color: #1D253C;
+}
+.head_insure_500-fw{
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 52px;
+  color: #1D253C;
+}
+.head_ins_500-fw-sz{
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #1D253C;
+}
+
+.insure__text{
+  margin-bottom: 32px;
+}
+.text-info_insuretext{
+  font-size: 19px;
+  line-height: 30px;
+}
+.insure-price{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.insure-price__text{
+  margin-right: 6px;
+}
+.insure-price_font{
+  font-size: 18px;
+  line-height: 22px;
+  color: #007189;
+}
+.insure-price_fontwidth{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #126F86;
+}
+.insure-price_txt-bold{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+.insure-price_txt-norm{
+  font-size: 16px;
+  line-height: 19px;
+}
+.icon-price{
+  fill: #007189;
+}
+.insure-price__icon_clr-blue{fill: #6EB0E1;}
+.insure-price__icon_clr-orange{fill: #F4943F;}
+.insure-price__icon_clr-red{fill: #FF3F31;}
+.insure-price__icon_clr-darkcyan{fill: #007189;}
+
+/* bellohelp section */
+.bellohelp{
+  padding-top: 148px;
+  padding-bottom: 289px;
+}
+.bellohelp__pic{
+  position: relative;
+  width: 542px;
+  height: 510px;
+}
+.bellohelp__wrap{
+  position: relative;
+}
+.bello-pic__wrap{
+  position: absolute;
+  z-index: 1;
+}
+.insure{
+  max-width: 456px;
+  width: 456px;
+}
+.bellohelp__insurance{
+  margin-top: 126px;
+  margin-right: 102px;
+}
+.circles{
+  background: url(../img/circle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bellofree__pic{
+  width: 542px;
+}
+.bello-pic__circles{
+  position: absolute;
+  top: -35px;
+  left: -45px;
+  z-index: -1;
+}
+.bello-pic__circles_size_m{
+  width: 195px;
+  height: 124px;
+}
+.bello-pic__text{
+  position: absolute;
+  left: -60px;
+  bottom: -25px;
+  padding: 20px 25px;
+}
+.text-bellohelp{
+  line-height: 28px;
+  color: #1D253C;
+  background: #FFFFFF;
+  -webkit-box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+          box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+  border-radius: 5px;
+}
+.bello-pic__text_sz_lg{
+  font-weight: 300;
+  font-size: 22px;
+}
+.bello-pic__text_sz_nrm{
+  font-size: 17px;
+}
+.bello-pic__pic-text {
+  position: absolute;
+  right: 44px;
+  bottom: -25px;
+  padding: 11px 18px;
+}
+.bellofree__insurance{
+  margin-top: 100px;
+  margin-left: 102px;
+}
+
+/* life-insur block */
+.life-insur{
+  background: #F8F8F8;
+  padding-bottom: 85px;
+}
+.life-insur__wrap-pic{
+  position: relative;
+}
+.life-insur__umbrella-pic{
+  position: absolute;
+  top: -110px;
+}
+.pic-life-insur{
+  background: url(../img/umbrella.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 454px;
+  height: 297px;
+}
+.life-insur__title{
+  margin: 90px 0 30px 0;
+}
+.title-descrp{
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #F46752;
+}
+.life-insur__heading{
+  font-size: 43px;
+  line-height: 52px;
+  text-align: center;
+  color: #1D253C;
+  margin-bottom: 37px;
+}
+.txt-lifeins{
+  line-height: 30px;
+  text-align: center;
+  color: #5A6482;
+  margin-bottom: 41px;
+}
+.life-insur__text{
+  font-size: 19px;
+}
+
+/* carts-insure block */
+.carts-insure{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cart-insure{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 320px;
+      flex-basis: 320px;
+  margin-right: 70px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+}
+.cart-insure:last-child{margin-right: 0px;}
+.cart-ins-title{
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #1D253C;
+}
+.cart-ins-txt{
+  line-height: 26px;
+  color: #5A6482;
+}
+.cart-insure__quest{
+  color: #2b3348;
+}
+.cart-insure__img-first{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.cart-insure__title-first{
+  margin-bottom: 5px;
+}
+.cart-insure__text-first{
+  margin-bottom: 72px;
+}
+.cart-insure__img-second{
+  margin-top: 30px;
+}
+.cart-insure__title-second{
+  margin-top: -17px;
+  margin-bottom: 15px;
+}
+.cart-insure__text-second{
+  margin-bottom: 62px;
+}
+.cart-insure__img-thirth{
+  margin-top: 44px;
+}
+.cart-insure__title-thirth{
+  margin-top: -3px;
+  margin-bottom: 10px;
+}
+.cart-insure__text-thirth{
+  margin-bottom: 43px;
+}
+.cart-insure__text_size_s{
+  font-size: 11px;
+}
+.cart-insure__text_size_m{
+  font-size: 12px;
+}
+.cart-insure__text_size_n{
+  font-size: 16px;
+}
+
+/* works section */
+.works{
+  position: relative;
+  background: #363839;
+}
+.works__wrap{
+  position: relative;
+  padding: 120px 0 105px;
+  overflow-x: hidden;
+}
+.works__title{
+  margin-bottom: 26px;
+}
+.works__heading{
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.works__text{
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: #ACB4BF;
+  margin-bottom: 63px;
+}
+.works__carts-wrap{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  position: relative;
+  margin-bottom: 35px;
+}
+.works__icon-stroke{
+  position: absolute;
+  top: 16px;
+  left: 195px;
+}
+.cart-works{
+  position: relative;
+}
+.works__cart-fst_size-sm{
+  width: 240px;
+}
+.works__cart-fst_size-n{
+  width: 256px;
+}
+.works__cart-fst{
+  margin-top: 3px;
+}
+.works__cart-sec{
+  margin-top: 9px;
+}
+.works__cart-thrth{
+  margin-top: 1px;
+}
+.works-img-cart{
+  position: absolute;
+}
+.works__img-cart-fst{
+  left: 104px;
+}
+.works__img-cart-sec{
+  left: 99px;
+}
+.works__img-cart-thrth{
+  left: 104px;
+}
+.works__icon-crcl-fst{
+  top: 20px;
+  left: 119px;
+}
+.works__icon-crcl-sec{
+  top: 14px;
+  left: 94px;
+}
+.works__icon-crcl-thrth{
+  top: 10px;
+  left: 103px;
+}
+.confetti{
+  width: 422px;
+  height: 243px;
+}
+.works__img-confetti{
+  position: absolute;
+  top: 205px; /* plus top padding */
+  right: -255px;
+}
+.works__subtitle{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 87px;
+  margin-bottom: 8px;
+}
+.works__text-cart{
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ACB4BF;
+}
+.works__button{
+  padding: 20px 36px 21px 29px;
+  margin: 0 auto;
+}
+.life-insur__img-dog{
+  position: absolute;
+  top: -154px;
+  right: 0;
+  background: url(../img/dog.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 181px;
+  height: 184px;
+}
+.circle-icon{
+  position: absolute;
+  fill: #5A6482;
+}
+.bellofree{
+  padding-top: 148px;
+  padding-bottom: 263px;
+}
+.insure__bellofree-title{
+  margin-bottom: 30px;
+}
+.insure__text-bellofree{
+  margin-bottom: 24px;
+}
+
+/* cards-info section */
+.info-card{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 260px;
+      flex-basis: 260px;
+}
+.cards-info__card{
+  padding: 40px 0 35px 22px;
+  margin-right: 20px;
+}
+.bgc-blue{
+  background: rgba(169, 216, 255, 0.3);
+}
+.bgc-orange{
+  background: rgba(255, 174, 104, 0.3);
+}
+.bgc-red{
+  background: rgba(250, 82, 64, 0.3);
+}
+.bgc-darkcyan{
+  background: rgba(18, 111, 133, 0.3);
+}
+.cards-info__wrapper{
+  padding-top: 160px;
+  padding-bottom: 132px;
+}
+.clr-blue{color: #7CAFDD;}
+.clr-orange{color: #E79751;}
+.clr-red{color: #FA5240;}
+.clr-darkcyan{color: #126F85;}
+.title-cards{
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 42px;
+}
+.title-cards-sm{
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 42px;
+}
+.cards-info__title_pb65{padding-bottom: 65px;}
+.cards-info__title_pb21{padding-bottom: 21px;}
+.cards-info__title_pb63{padding-bottom: 63px;}
+.cards-info__title_pb20{padding-bottom: 20px;}
+.txt-cards{
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+}
+.cards-info__text{margin-bottom: 84px;}
+.txt-cards-sm{
+  font-size: 15px;
+  line-height: 19px;
+  color: #5A6482;
+}
+
+/* startoday section */
+.startoday{
+  background: #E5F3FE;
+}
+.startoday__wrapper{
+  position: relative;
+  padding-top: 106px;
+  padding-bottom: 85px;
+}
+.startoday__img-umbrella{
+  position: absolute;
+  top: -64px;
+  left: -106px;
+  width: 571px;
+  height: 446px;
+}
+.startoday__heading{
+  margin-bottom: 8px;
+}
+.startoday__img-woman{
+  position: absolute;
+  right: 82px;
+  bottom: 0;
+  width: 76px;
+  height: 205px;
+}
+.startoday__text{
+  margin-bottom: 39px;
+}
+
+/* contacts section */
+.contacts__wrapper{
+  padding-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.contacts__form{
+  padding-left: 15px;
+  margin-right: 203px;
+}
+.goto{
+  width: 376px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.goto__logo{
+  margin-bottom: 33px;
+  -webkit-animation: flip;
+          animation: flip;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.goto__text{
+  font-size: 14px;
+  line-height: 23px;
+  color: #5A6482;
+  margin-bottom: 22px;
+  min-width: 320px;
+}
+.goto__form-elems{
+  margin-bottom: 25px;
+}
+.goto__form{display: -webkit-box;display: -ms-flexbox;display: flex;}
+.goto__form-text{
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 21px;
+  padding-left: 10px;
+  width: 216px;
+  height: 60px;
+  border-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  outline: 0;
+}
+.goto__form-text:focus{
+  border: 1px solid #126F85;
+}
+.goto__form-submit{
+  background: #126F85;
+  border-radius: 0px 5px 5px 0px;
+  height: 60px;
+  width: 84px;
+  border: none;
+  padding: 19px 17px 18px 19px;
+}
+.goto__form-button-text{
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-right: 8px;
+}
+.goto__form-icon{
+  fill: #fff;
+  margin-top: 2px;
+}
+.contacts__soc-icon{
+  fill: #5A6482;
+  margin-right: 34px;
+  vertical-align: baseline;
+    cursor: pointer;
+}
+.desctop-footer-menu{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-menu__title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #1D253C;
+  margin: 0 0 22px;
+}
+.contacts__social{
+  margin-bottom: 40px;
+}
+.contacts__menu-resource, 
+.contacts__menu-magazine{
+  margin-right: 103px;
+}
+.footer{
+  background: #F8F8F8;
+}
+.footer__wrapper{
+  padding: 18px 0;
+}
+.footer__copyright{
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+  letter-spacing: -0.6px;
+  margin: 0;
+}
+.footer-menu-link{
+  display: block;
+  text-decoration: none;
+  margin-bottom: 19px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+  letter-spacing: -0.6px;
+}
+.btn-footer__price{
+  padding: 13px 31px 14px 31px;
+}
+
+.cart__btn-close{position:absolute;top:0;right:0;width:3em;height:3em;color:inherit;
+  background:transparent;border:none;cursor:pointer;outline:none}
+.cart__btn-close::before,
+.cart__btn-close::after{content:"";display:block;position:absolute;top:50%;right:5px;left:5px;
+  border-bottom:1px solid white;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.cart__btn-close::after{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+.cart__btn-close:focus::before,
+.cart__btn-close:hover::before,
+.cart__btn-close:focus::after,
+.cart__btn-close:hover::after{border-color:#f93c00}
+.cart-overlay{display:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;
+  -webkit-box-align:center;-ms-flex-align:center;align-items:center;
+  position:fixed;top:0;left:0;bottom:0;right:0;width:100%;height:100vh;
+  z-index:1000;overflow-y:auto;background:rgba(0,0,0,0.5);
+  -webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);
+  -webkit-animation:fadeIn 300ms ease-in-out;animation:fadeIn 300ms ease-in-out}
+.cart-overlay-open{display:-webkit-box;display:-ms-flexbox;display:flex}
+
+
+/* grid image effect */
+.grid {
+  position: relative;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid__effect-bubba {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+  width: 542px;
+  height: 510px;
+  margin: 0;
+}
+.grid__img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+.grid__figcaption {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.grid__figcaption::before,
+.grid__figcaption::after {
+	pointer-events: none;
+}
+.grid__figcaption,
+.grid__figcaption > .grid__link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid__figcaption > .grid__link {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+.grid__title {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.grid__title-span {
+	font-weight: 800;
+}
+.grid__title,
+.grid__text {
+	margin: 0;
+}
+.grid__text {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+
+.grid__effect-bubba {
+	background: #9e5406;
+}
+.grid__img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+.grid__effect-bubba:hover .grid__img {
+	opacity: 0.4;
+}
+.grid__figcaption::before,
+.grid__figcaption::after {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+.grid__figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+.grid__figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+.grid__title {
+	padding-top: 30%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	transition: transform 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
+}
+.grid__text {
+	padding: 20px 2.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+.grid__effect-bubba:hover .grid__figcaption::before,
+.grid__effect-bubba:hover .grid__figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.grid__effect-bubba:hover .grid__title,
+.grid__effect-bubba:hover .grid__text {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.mobile-menu{
+  display: none;
+}
+.bello-pic__wrap_right{
+  right: 0;
+}
+
+/* spoiler accordion */
+.wrap-spoiler{
+  display: none;
+  height: 100%;
+  padding: 50px;
+}
+.spoiler__item {
+  margin: 0 0 20px 0;
+  color: #5A6482;
+}
+.spoiler__title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  padding: 0 0 0 30px;
+  cursor: pointer;
+}
+.spoiler__title::before,
+.spoiler__title::after {
+  content: '';
+  width: 10px;
+  height: 1px;
+  background: #5A6482;
+  position: absolute;
+  top: 8px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.spoiler__title::before{
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  left: 0;
+}
+.spoiler__title::after{
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  left: 8px;
+}
+.spoiler__text {
+  display: none;
+  padding: 10px 0 0 0;
+}
+.spoiler__title.active::before,
+.spoiler__title.active::after{
+  background-color: red;
+}
+.spoiler__title.active::before{
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+.spoiler__title.active::after{
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+.footer-menu{
+  padding: 0;
+}
+.mobile-footer-menu{
+  display: none;
+}
+.footer__copyright{
+  margin-bottom: 20px;
+}
+.btn-footer__price {
+    margin: 0 0 0 auto;
+    display: block;
+}
+
+/* .startoday, .contacts, .life-insur, .bellofree, .coverage, .bellohelp {
+  overflow-x: hidden;
+} */
+.bellofree, .bellohelp{
+  overflow-x: hidden;
+}
+
+@media (max-width: 87.5em) {  /* 1400 (1400/16 == 87.5) */ 
+  .wrapper_size_l {
+    max-width: 1240px;
+  }
+  .wrapper_size_m {
+    max-width: 1140px;
+  }
+  .cart-insure{
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .info-content__heading{
+    font-size: 58px;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+  .info-content__button{
+    padding: 17px 30px;
+  }
+  .contacts__menu-resource, 
+  .contacts__menu-magazine, 
+  .contacts__menu-more{
+    -ms-flex-preferred-size: 33.33%;
+        flex-basis: 33.33%;
+    padding-left: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+  }
+  .contacts__menu-resource{
+    padding: 0;
+  }
+  .contacts__menu{
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media (max-width: 75em) {  /* 1200 (1200/16) */ 
+  .wrapper_size_m {
+    max-width: 930px;
+  }
+  .wrapper_size_sm{
+    max-width: 950px;
+  }
+  .wrapper_size_s {
+    max-width: 940px;
+  }
+
+  .insure__title {
+    margin-bottom: 15px;
+  }
+  .coverage__insurance{
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+  .info-content__heading{
+    font-size: 50px;
+    line-height: 53px;
+    margin-bottom: 15px;
+  }
+  .head_insure, 
+  .life-insur__heading, 
+  .works__heading, 
+  .head_insure_500-fw {
+    font-size: 37px;
+    line-height: 44px;
+  }
+  .insure__heading, 
+  .insure__heading-help, 
+  .life-insur__heading{
+    margin-bottom: 15px;
+  }
+  .text-info_insuretext, 
+  .life-insur__text, 
+  .works__text, 
+  .txt-lifeins{
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .insure__text{
+    margin-bottom: 20px;
+  }
+  .coverage__million {
+    margin-right: 100px;
+  }
+  .grid__effect-bubba{
+    width: 500px;
+    height: 100%;
+  }
+  .insure__heading-help{
+    width: 100%;
+  }
+  .bellofree__insurance_pos{
+    position: relative;
+    right: -85px;
+    margin-top: 100px;
+    margin-left: -90px;
+  }
+  .head_ins_500-fw-sz{
+    font-size: 37px;
+  }
+  .cards-info__card:last-child{
+    margin-right: 0;
+  }
+  .cards-info__text{
+    min-height: 60px;
+  }
+  .startoday__img-umbrella{
+    opacity: 0.1;
+    top: -69px;
+  }
+  .startoday__img-woman{
+    opacity: 0.4;
+  }
+  .contacts__form{
+    margin-right: 0;
+  }
+  .contacts__menu-resource, .contacts__menu-magazine, 
+  .contacts__menu-more{
+    margin: 0 0 35px 0;
+  }
+  .works__img-confetti{
+    top: 183px;
+    right: -372px;
+  }
+  .startoday__img-umbrella{
+    top: -80px;
+  }
+  .contacts__menu{
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    margin-bottom: 50px;
+  }
+  .desctop-footer-menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .footer-menu{
+    -ms-flex-preferred-size: 33.33%;
+        flex-basis: 33.33%;
+  }
+  .contacts__menu-magazine{
+    padding: 0 0 0 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .contacts__wrapper{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 62em) { /* 992px */ 
+  .wrapper_size_s {
+    max-width: 720px;
+  }
+  .wrapper_size_sm{
+    max-width: 730px;
+  }
+  .wrapper_size_m{
+    max-width: 740px;
+    padding: 0 20px;
+  }
+  .header_m{
+    padding: 20px 0;
+  }
+  .header__nav-list, 
+  .btn-head__login, 
+  .btn-head__price{
+    display: none;
+  }
+  .mobile-menu{
+    display: inline-block;
+  }
+  .info-content__heading{
+    font-size: 52px;
+    line-height: 55px;
+  }
+  .info-content__text {
+    margin-bottom: 20px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 748px;
+    padding: 20px;
+    overflow: scroll;
+  }
+  .coverage__mainwrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .bellohelp{
+    padding-top: 100px;
+    padding-bottom: 190px;
+  }
+  .bellohelp__insurance{
+    margin: 0 0 70px 0;
+  }
+  .bello-pic__wrap{
+    position: relative;
+    display: inline-block;
+  }
+  .grid__effect-bubba{
+    width: 542px;
+    height: 510px;
+  }
+  .bellohelp__wrap{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .carts-insure, 
+  .works__carts-wrap, 
+  .cards-info__wrapper, 
+  .contacts__wrapper{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cards-info__wrapper{
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .cards-info__card{
+    margin: 0 0 25px 0;
+  }
+  .works__icon-stroke, 
+  .works__img-confetti{
+    display: none;
+  }
+  .works__cart-fst, 
+  .works__cart-sec,
+  .works__cart-thrth
+  {
+    margin-bottom: 30px;
+  }
+  .bellofree{
+    padding-top: 100px;
+    padding-bottom: 190px;
+  }
+  .bellofree__insurance{
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
+  .insure__bellofree-title{
+    margin-bottom: 15px;
+  }
+  .head_ins_500-fw-sz{
+    font-size: 40px;
+  }
+  .bellofree__wrap{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .startoday__img-woman{
+    opacity: 0.2;
+  }
+  .contacts__form{
+    margin-bottom: 60px;
+    padding: 0;
+  }
+  .goto__form-text{
+    width: 100%;
+  }
+  .contacts__form{
+    margin-bottom: 60px;
+    padding: 0;
+  }
+  .contacts__menu{
+    margin-bottom: 50px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 695px;
+  }
+  .goto__logo{
+    margin-bottom: 25px;
+  }
+  .goto__text{
+    font-size: 16px;
+  }
+  .contacts__social{
+    margin-bottom: 0;
+  }
+  .contacts__soc-icon{
+    margin-right: 20px;
+    padding: 12px;
+  }
+  .contacts__social{
+    margin: 0;
+  }
+  .contacts__soc-icon {
+    padding: 10px;
+    margin-right: 20px;
+  }
+  .contacts__soc-icon:last-child{
+    margin: 0;
+  }
+  .contacts__menu{
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .desctop-footer-menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .contacts__menu-resource, .contacts__menu-magazine{
+    margin-right: 0;
+  }
+  .contacts__menu-more{
+    margin-right: 30px;
+  }
+  .footer-menu{
+    padding: 0;
+  }
+}
+
+@media (max-width: 48em) { /* 768px */ 
+  .wrapper_size_s {
+    max-width: 610px;
+  }
+  .wrapper_size_sm{
+    max-width: 620px;
+  }
+  .wrapper_size_m{
+    max-width: 630px;
+  }
+  .header_m{
+    padding: 10px 0;
+  }
+  .info-content__heading{
+    font-size: 45px;
+    line-height: 49px;
+    margin-bottom: 17px;
+  }
+  .head-content__img {
+    opacity: 0.4;
+  }
+  .modal-close-price{
+    font-size: 40px;
+  }
+  .grid__effect-bubba{
+    width: 100%;
+    height: auto;
+  }
+  .carts-insure{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cart-insure{
+    margin-right: 0;
+  }
+  .head_insure, 
+  .life-insur__heading, 
+  .works__heading, 
+  .head_insure_500-fw, 
+  .head_ins_500-fw-sz{
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .bellofree__pic{
+    max-width: 100%;
+  }
+  .cards-info__wrapper{
+    padding-top: 100px;
+  }
+  .startoday__wrapper{
+    padding: 100px 0;
+  }
+  .startoday__img-umbrella {
+      top: -41px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 590px;
+  }
+  .startoday__img-umbrella{
+    top: -47px;
+  }
+  .goto__logo{
+    margin-bottom: 25px;
+  }
+  .goto__text{
+    font-size: 16px;
+  }
+  .contacts__social{
+    margin-bottom: 0;
+  }
+  .contacts__soc-icon{
+    margin-right: 20px;
+    padding: 12px;
+  }
+  .contacts__social{
+    margin: 0;
+  }
+  .contacts__soc-icon {
+    padding: 10px;
+    margin-right: 20px;
+  }
+  .contacts__soc-icon:last-child{
+    margin: 0;
+  }
+  .desctop-footer-menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .contacts__menu-resource, .contacts__menu-magazine{
+    margin-right: 0;
+  }
+  .contacts__menu-more{
+    margin-right: 30px;
+  }
+  .footer-menu{
+    padding: 0;
+  }
+  .footer__copyright{
+    margin-bottom: 20px;
+  }
+  .btn-footer__price {
+      margin: 0 0 0 auto;
+      display: block;
+  }
+  .contacts__menu-resource, 
+  .contacts__menu-magazine, 
+  .contacts__menu-more{
+    -ms-flex-preferred-size: 33.33%;
+        flex-basis: 33.33%;
+    padding-left: 25px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+  }
+  .contacts__menu-resource{
+    padding: 0;
+  }
+}
+
+@media (max-width: 41em) { /* 656px */ 
+  .wrapper_size_s {
+    max-width: 510px;
+  }
+  .wrapper_size_sm{
+    max-width: 520px;
+  }
+  .wrapper_size_m, .wrapper_size_l{
+    max-width: 530px;
+  }
+  .head-content__info{
+    padding: 0;
+  }
+  .info-content__title{
+    font-size: 17px;
+  }
+  .info-content__heading{
+    font-size: 41px;
+    line-height: 43px;
+  }
+  .info-content__button{
+    padding: 16px 23px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 490px;
+  }
+  .million-coverage__img{
+    height: 373px;
+  }
+  .startoday__img-umbrella{
+    top: -47px;
+  }
+  .goto__logo{
+    margin-bottom: 25px;
+  }
+  .goto__text{
+    font-size: 16px;
+  }
+  .contacts__social{
+    margin-bottom: 0;
+  }
+  .contacts__soc-icon{
+    margin-right: 20px;
+    padding: 12px;
+  }
+  .contacts__menu{
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .desctop-footer-menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contacts__menu-resource, .contacts__menu-magazine{
+    margin-right: 0;
+  }
+  .contacts__menu-more{
+    margin-right: 30px;
+  }
+  .footer__copyright{
+    margin-bottom: 20px;
+  }
+  .btn-footer__price {
+      margin: 0 0 0 auto;
+      display: block;
+  }
+  .contacts__form{
+    margin-bottom: 30px;
+  }
+  .contacts__social{
+    margin: 0;
+  }
+  .contacts__soc-icon {
+    padding: 10px;
+    margin-right: 20px;
+  }
+  .contacts__soc-icon:last-child{
+    margin: 0;
+  }
+  .contacts__menu-resource, 
+  .contacts__menu-magazine, 
+  .contacts__menu-more{
+    margin: 0 0 40px 0;
+  }
+  .mobile-footer-menu{
+    display: none;
+  }
+}
+
+@media (max-width: 35em) { /* 560px */ 
+  .wrapper_size_s {
+    max-width: 440px;
+  }
+  .wrapper_size_sm{
+    max-width: 450px;
+  }
+  .wrapper_size_m, .wrapper_size_l{
+    max-width: 460px;
+  }
+
+  #modal-container .modal-background .modal2{
+    max-width: 480px;
+  }
+  .head-content__img-wrap{
+    margin-top: 0;
+  }
+  .head_insure {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .coverage__million {
+    margin-right: 0px;
+  }
+  .million-coverage{
+    padding: 25px 30px;
+    display: block;
+  }
+  .million-coverage__img{
+    max-width: 100%;
+    background-size: contain;
+  }
+  .btn-footer__price{
+    padding: 10px 20px;
+    margin-left: 15px;
+  }
+  .info-content__heading{
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .head-content__info{
+    padding-top: 26px;
+    left: 7.39%;
+    top: 150px;
+  }
+  .img-size_top{
+    height: 635px;
+    width: 69%;
+  }
+  .head-content__img-wrap{
+    margin-bottom: 100px;
+  }
+  .head-content__img{
+    position: relative;
+    top: -15%;
+  }
+  .info-content__title{
+    font-size: 16px;
+  }
+  .info-content__heading{
+    margin-bottom: 10px;
+  }
+  .text-info_infotext{
+    font-size: 20px;
+  }
+  .info-content__button{
+    padding: 14px 19px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 400px;
+  }
+  #pricing-table{
+    margin-top: 60px;
+  }
+  .pic-life-insur{
+    width: 374px;
+    height: 265px;
+  }
+  .title-descrp, .life-insur__heading, .life-insur__text, 
+  .works__heading, .works__text, .startoday__heading, .startoday__text {
+    text-align: left;
+  }
+  .life-insur__title{
+    margin-bottom: 15px;
+  }
+  .bellofree{
+    padding-bottom: 150px;
+  }
+  .startoday__img-umbrella{
+    width: 500px;
+    top: -49px;
+    left: -160px;
+  }
+  .startoday__img-woman{
+    right: 30px;
+  }
+  .contacts__form{
+    margin-bottom: 30px;
+  }
+  .contacts__social{
+    margin: 0;
+  }
+  .contacts__soc-icon {
+    padding: 10px;
+    margin-right: 20px;
+  }
+  .contacts__soc-icon:last-child{
+    margin: 0;
+  }
+  .contacts__menu-resource, 
+  .contacts__menu-magazine{
+    margin: 0;
+  }
+  .desctop-footer-menu{
+    display: none;
+  }
+  .footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 0;
+  }
+  .footer__copyright{font-size: 14px;}
+  .btn-footer__price {
+    padding: 10px 20px;
+    margin: 13px auto 0;
+  }
+  .goto__text{
+    font-size: 17px;
+  }
+  .contacts__menu{
+    width: 100%;
+  }
+  .spoiler__text{
+    padding: 20px 0px 0px;
+  }
+  .footer-menu{
+    padding: 0 0 0 35px;
+  }
+  .footer-menu-link{
+    font-size: 18px;
+  }
+  .million-coverage__img{
+    height: 315px;
+  }
+  .mobile-footer-menu{
+    display: block;
+  }
+  .btn-footer__price{
+    margin: 0 0 0 auto;
+    display: block;
+  }
+}
+
+@media (max-width: 30em) { /* 480px */ 
+  .wrapper_size_s, .wrapper_size_sm, 
+  .wrapper_size_m, .wrapper_size_l {
+    max-width: 330px;
+  }
+  .million-coverage{
+    padding: 15px;
+  }
+  .bello-pic__pic-text {
+      right: 44px;
+      bottom: -25px;
+      padding: 11px 18px;
+  }
+  .info-content__heading{
+    font-size: 34px;
+    line-height: 38px;
+    margin-bottom: 10px;
+  }
+  .head-content__info{
+    padding-top: 0;
+    left: 0;
+    top: 130px;
+  }
+  .img-size_top{
+    height: 590px;
+    width: 100%;
+  }
+  .head-content__img-wrap{
+    margin-bottom: 100px;
+  }
+  .head-content__img{
+    position: relative;
+    top: -15%;
+  }
+  .info-content__title{
+    font-size: 16px;
+  }
+  .text-info_infotext{
+    font-size: 19px;
+  }
+  .info-content__button{
+    padding: 14px 19px;
+  }
+  #modal-container .modal-background .modal2 h2{
+    font-size: 23px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 290px;
+  }
+  .head_insure, .life-insur__heading, 
+  .works__heading, .head_insure_500-fw, 
+  .head_ins_500-fw-sz, .head_insure {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .text-info_infotext{
+    font-size: 18px;
+  }
+  .coverage__insurance{
+    margin-top: 0;
+  }
+  .insure{
+    width: 100%;
+  }
+  .insure-price{
+    height: 32px;
+  }
+  .bello-pic__pic-text{
+    right: 12px;
+  }
+  .bello-pic__text_sz_lg{
+    font-size: 18px;
+  }
+  .pic-life-insur{
+    width: 100%;
+    height: 231px;
+  }
+  .life-insur__umbrella-pic{
+    top: -90px;
+  }
+  .life-insur{
+    padding-bottom: 120px;
+  }
+  .info-content__button, 
+  .works__button{
+    padding: 12px 16px;
+  }
+  .bellofree__insurance_pos{
+    right: 0;
+  }
+  .bellofree__insurance{
+    margin: 0 0 60px;
+  }
+  .bello-pic__text_sz_nrm{
+    font-size: 16px;
+  }
+  .bellofree{
+    padding-bottom: 130px;
+  }
+  .startoday__img-umbrella{
+    width: 557px;
+    height: auto;
+    left: -274px;
+    top: -66px;
+  }
+  .startoday__img-woman{
+    right: 0;
+  }
+  .contacts__form{
+    margin-bottom: 30px;
+  }
+  .contacts__social{
+    margin: 0;
+  }
+  .contacts__soc-icon {
+    padding: 10px;
+    margin-right: 20px;
+  }
+  .contacts__soc-icon:last-child{
+    margin: 0;
+  }
+  .contacts__menu-resource, 
+  .contacts__menu-magazine{
+    margin: 0;
+  }
+  .desctop-footer-menu{
+    display: none;
+  }
+  .footer__copyright{font-size: 14px;}
+  .btn-footer__price {
+    padding: 10px 20px;
+    margin: 13px auto 0;
+  }
+  .goto__text{
+    font-size: 17px;
+  }
+  .contacts__menu{
+    width: 100%;
+  }
+  .spoiler__text{
+    padding: 20px 0px 0px;
+  }
+  .footer-menu{
+    padding: 0 0 0 35px;
+  }
+  .footer-menu-link{
+    font-size: 18px;
+  }
+  .million-coverage__img{
+    height: 315px;
+  }
+}
+
+@media (max-width: 22.5em) {  /* 360px */
+  .wrapper_size_s, .wrapper_size_sm, 
+  .wrapper_size_m, .wrapper_size_l {
+    max-width: 290px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 320px;
+  }
+  .coverage__insurance{
+    margin-top: 0;
+    max-width: 100%;
+  }
+  .head_insure, .life-insur__heading, 
+  .works__heading, .head_insure_500-fw, 
+  .head_ins_500-fw-sz, .head_insure {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .bello-pic__text_sz_lg{
+    font-size: 18px;
+  }
+  .million-coverage__img{
+    height: 280px;
+  }
+  .insure{
+    width: 100%;
+  }
+  .bello-pic__pic-text{
+    right: 5px;
+    padding: 9px 14px;
+  }
+  .contacts__menu{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__menu-resource, .contacts__menu-magazine{
+    margin-bottom: 25px;
+  }
+  .footer-menu__title{
+    font-size: 20px;
+  }
+  .footer-menu-link{
+    font-size: 19px;
+  }
+  .info-content__heading{
+    font-size: 33px;
+    line-height: 38px;
+    margin-bottom: 10px;
+  }
+  .head-content__info{
+    padding-top: 0;
+    left: 0;
+    top: 130px;
+  }
+  .img-size_top{
+    height: 590px;
+    width: 100%;
+  }
+  .head-content__img-wrap{
+    margin-bottom: 100px;
+  }
+  .head-content__img{
+    position: relative;
+    top: -15%;
+  }
+  .info-content__title{
+    font-size: 16px;
+  }
+  .text-info_infotext{
+    font-size: 19px;
+  }
+  #modal-container .modal-background .modal2 h2{
+    font-size: 23px;
+  }
+  #pricing-table{
+    margin-top: 60px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 290px;
+  }
+  .modal-close-price{
+    top: -60px;
+  }
+  .modal{
+    width: 230px;
+  }
+  .icon-logo{
+    height: 30px;
+  }
+  .general-price__text{
+    font-weight: normal;
+    font-size: 15px;
+  }
+  .pic-life-insur{
+    width: 100%;
+    height: 209px;
+  }
+  .life-insur__umbrella-pic{
+    top: -96px;
+  }
+  .cart-insure__text_size_m, 
+  .cart-insure__text_size_s, 
+  .cart-insure__text_size_n{
+    font-size: 14px;
+  }
+  .works__title{
+    margin-bottom: 20px;
+  }
+  .works__carts-wrap{
+    margin: 0;
+  }
+  .bellofree__insurance_pos{
+    right: 0;
+  }
+  .bellofree__insurance{
+    margin: 0 0 70px;
+  }
+  .insure-price{
+    height: 30px;
+  }
+  .startoday__img-umbrella{
+    width: 557px;
+    height: auto;
+    left: -274px;
+    top: -43px;
+  }
+  .startoday__img-woman{
+    right: 0;
+  }
+  .contacts__form{
+    margin-bottom: 30px;
+  }
+  .goto__logo{
+    margin-bottom: 20px;
+  }
+  .goto__text{
+    min-width: 100%;
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .contacts__social{
+    margin: 0;
+  }
+  .contacts__soc-icon {
+    padding: 8px;
+    margin-right: 20px;
+  }
+  .contacts__soc-icon:last-child{
+    margin: 0;
+  }
+  .insure__heading-help{
+    width: 290px;
+  }
+  .contacts__menu-resource, 
+  .contacts__menu-magazine{
+    margin: 0;
+  }
+  .desctop-footer-menu{
+    display: none;
+  }
+  .footer__copyright{font-size: 14px;}
+  .btn-footer__price {
+    padding: 10px 20px;
+    margin: 13px auto 0;
+  }
+}
+
+@media (max-width: 20em) { /* 320px */ 
+  .wrapper_size_s, .wrapper_size_sm, 
+  .wrapper_size_m, .wrapper_size_l {
+    max-width: 250px;
+  }
+  .goto__text{
+    min-width: 100%;
+  }
+  .mobile-footer-menu{
+    display: block;
+  }
+  .desctop-footer-menu{
+    display: none;
+    padding: 0;
+  }
+  .spoiler__text{
+    padding-top: 25px;
+  }
+  .spoiler__menu-item{
+    margin-bottom: 25px;
+  }
+  .pic-life-insur{
+    width: 100%;
+    height: 192px;
+  }
+  .life-insur__umbrella-pic{
+    top: -90px;
+  }
+  .startoday__img-umbrella {
+    display: none;
+  }
+  .modal{
+    width: 190px;
+  }
+  .head-content__info{
+    padding-top: 0;
+    left: 0;
+    top: 130px;
+  }
+  .img-size_top{
+    height: 565px;
+    width: 100%;
+  }
+  .head-content__img-wrap{
+    margin-bottom: 100px;
+  }
+  .head-content__img{
+    position: relative;
+    top: -15%;
+  }
+  .info-content__title{
+    font-size: 16px;
+  }
+  .info-content__heading{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .text-info_infotext{
+    font-size: 19px;
+    line-height: 27px;
+  }
+  .info-content__button, 
+  .works__button{
+    padding: 12px 16px;
+  }
+  .works__carts-wrap{
+    margin: 0;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 240px;
+    overflow: scroll;
+    padding: 20px;
+  }
+  .million-coverage__img {
+    height: 230px;
+  }
+  .icon-logo{
+    height: 29px;
+  }
+  .cart-insure__img-thirth{
+    width: 90%;
+  }
+  .carts-insure__cart{
+    padding: 0 10px;
+  }
+  .cart-insure__text_size_m, 
+  .cart-insure__text_size_s, 
+  .cart-insure__text_size_n{
+    font-size: 14px;
+  }
+  .life-insur{
+    padding-bottom: 115px;
+  }
+  .bellofree{
+    padding-bottom: 150px;
+  }
+  .contacts__social{
+    margin: 0;
+  }
+  .contacts__soc-icon {
+    padding: 6px;
+    margin-right: 20px;
+  }
+  .contacts__soc-icon:last-child{
+    margin: 0;
+  }
+  .insure__heading-help{
+    width: 290px;
+  }
+  .contacts__menu-resource, 
+  .contacts__menu-magazine{
+    margin: 0;
+  }
+  .footer__copyright{font-size: 14px;}
+  .btn-footer__price {
+    padding: 10px 20px;
+    margin: 13px auto 0;
+  }
+}
+
+/* min - galaxy fold 280px */
+@media (max-width: 17.5em) { /* 280px */ 
+  .wrapper_size_s, .wrapper_size_sm, 
+  .wrapper_size_m, .wrapper_size_l {
+    max-width: 220px;
+  }
+  #modal-container .modal-background .modal2{
+    max-width: 200px;
+    padding: 20px;
+    overflow: scroll;
+  }
+  .info-content__title{
+    margin-bottom: 13px;
+  }
+  .text-info_infotext{
+    font-size: 20px;
+  }
+  .head-content__info{
+    padding-top: 0;
+    left: 0;
+  }
+  .info-content__heading{
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .text-info_infotext{
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .info-content__button, 
+  .works__button{
+    padding: 12px 15px;
+  }
+  .head_insure, .life-insur__heading, 
+  .works__heading, .head_insure_500-fw, 
+  .head_ins_500-fw-sz, .head_insure{
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .million-coverage__img{
+    height: 190px;
+  }
+  .grid__figcaption{
+    padding: 1em;
+  }
+  .grid__title{
+    font-size: 22px;
+  }
+  .grid__text{
+    padding: 10px;
+  }
+  .bello-pic__pic-text{
+    right: 0;
+    padding: 8px;
+  }
+  .bellohelp{
+    padding-bottom: 180px;
+  }
+  .title-descrp, .life-insur__heading, 
+  .life-insur__text, .works__heading, 
+  .works__text, .startoday__heading, 
+  .startoday__text{
+    text-align: left;
+  }
+  .cart-insure__img-thirth{
+    width: 190px;
+  }
+  .cart-insure__text_size_n,
+  .cart-insure__text_size_s {
+      font-size: 13px;
+      padding: 0 10px;
+  }
+  .works__text-cart{
+    font-size: 15px;
+  }
+  .insure-price_font{
+    font-size: 16px;
+    height: 38px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cards-info__card{
+    padding: 40px 15px;
+  }
+  .startoday__img-umbrella{
+    display: none;
+  }
+  .startoday__img-woman{
+    right: -20px;
+  }
+  .contacts__wrapper{
+    padding: 100px 0;
+  }
+  .goto{
+    max-width: 100%;
+  }
+  .goto__text{
+    min-width: 100%;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .contacts__social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .contacts__soc-icon{
+    padding: 12px;
+  }
+  .insure-price{
+    height: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacts__menu-resource, .contacts__menu-magazine{
+    margin-right: 0;
+  }
+  .footer-menu-link{
+    font-size: 18px;
+  }
+  .contacts__menu{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0;
+  }
+  .contacts__form{
+    margin-bottom: 0;
+  }
+  .footer__wrapper{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 0;
+  }
+  .header__btns_center{
+    margin: 20px auto;
+  }
+  #pricing-table{
+    margin: 40px auto;
+  }
+  .pic-life-insur{
+    width: 100%;
+    height: 187px;
+  }
+  .life-insur__umbrella-pic{
+    top: -70px;
+  }
+  .life-insur{
+    padding-bottom: 120px;
+  }
+  .life-insur__img-dog{
+    width: 140px;
+    height: 145px;
+    top: -120px;
+  }
+  .bellofree {
+    padding-bottom: 130px;
+  }
+  .mobile-footer-menu{
+    display: block;
+  }
+  .desctop-footer-menu{
+    display: none;
+    padding: 0;
+  }
+  .spoiler__text{
+    padding-top: 25px;
+  }
+  .spoiler__menu-item{
+    margin-bottom: 25px;
+  }
+  .modal{
+    width: 180px;
+  }
+  .life-insur__title{
+    margin-bottom: 15px;
+  }
+  .startoday{
+    overflow-x: hidden;
+  }
+  .icon-logo{
+    height: 25px;
+  }
+  .insure__heading-help {
+    width: 100%;
+  }
+}
